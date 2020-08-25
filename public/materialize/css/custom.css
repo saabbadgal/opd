@@ -1,0 +1,312 @@
+.container{
+width:90%;
+}
+.mtb{
+margin-top: 5%;
+}
+.heading{
+font-weight: 200;
+}
+/* label color */
+.input-field label {
+color: #000;
+}
+/* label focus color */
+.input-field input[type=text]:focus + label {
+color: #000;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+border-bottom: 1px solid #000;
+box-shadow: 0 1px 0 0 #000;
+}
+/* valid color */
+.input-field input[type=text].valid {
+border-bottom: 1px solid #000;
+box-shadow: 0 1px 0 0 #000;
+}
+/* invalid color */
+.input-field input[type=text].invalid {
+border-bottom: 1px solid #000;
+box-shadow: 0 1px 0 0 #000;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+color: #000;
+}
+.search{
+height:48px;
+padding:10px;
+font-weight: 200;
+font-size: 26px;
+}
+::placeholder{
+color: black;
+}
+#heading-s{
+font-family: 'Poppins', sans-serif !important;
+font-size: 40px;
+font-weight: 600;
+color: #272b41;
+}
+#heading-ss{
+font-family: 'Poppins', sans-serif !important;
+font-size: 20px;
+font-weight: 400;
+color: #757575;
+}
+.bg{
+background-color: #f9f9f9 !important;
+}
+body{
+background-color: #f9f9f9 !important;
+font-family: 'Poppins', sans-serif !important;
+}
+nav ul a:hover {
+background-color: white !important;
+color: #009688 !important;
+}
+.svg{
+background: url({{asset(env('loc_path').'front/ste.png')  }});
+background-size: 250px;
+background-repeat: no-repeat;
+background-position: right;
+
+-webkit-animation: slide 3s linear infinite;
+}
+@-webkit-keyframes slide {
+from {  background-position: right;}
+to { background-position: 1000px }
+}
+
+.card2{
+background-color: #fff;
+border: 1px solid #f0f0f0;
+border-radius:4px;
+margin-bottom:30px;
+position:relative;
+-webkit-transition:all .3s ease 0s;
+-moz-transition:all .3s ease 0s;
+-o-transition:all .3s ease 0s;
+transition:all .3s ease 0s;
+padding: 15px;
+box-shadow: 2px 2px 13px rgba(0, 0, 0, 0.1);
+margin-bottom: 0;
+}
+.available-info {
+font-size: 13px;
+color: #757575;
+font-weight: 400;
+list-style: none;
+padding: 0;
+margin-bottom: 15px;
+}
+.available-info li + li {
+margin-top: 5px;
+}
+.available-info li i {
+width: 22px;
+}
+.doc-img {
+position: relative;
+overflow: hidden;
+z-index: 1;
+border-radius: 4px;
+}
+.doc-img img {
+border-radius: 4px;
+-webkit-transform: translateZ(0);
+-moz-transform: translateZ(0);
+transform: translateZ(0);
+-moz-transition: all 2000ms cubic-bezier(.19,1,.22,1) 0ms;
+-ms-transition: all 2000ms cubic-bezier(.19,1,.22,1) 0ms;
+-o-transition: all 2000ms cubic-bezier(.19,1,.22,1) 0ms;
+-webkit-transition: all 2000ms cubic-bezier(.19,1,.22,1) 0ms;
+transition: all 2000ms cubic-bezier(.19,1,.22,1) 0ms;
+width: 100%;
+}
+.doc-img:hover img {
+-webkit-transform: scale(1.15);
+-moz-transform: scale(1.15);
+transform: scale(1.15);
+}
+.img-fluid {
+max-width: 100%;
+height: auto;
+}
+.pro-content {
+padding: 15px 0 0;
+}
+.title {
+font-size: 17px;
+font-weight: 500;
+margin-bottom: 5px;
+margin-top: 0px;
+}
+.speciality {
+font-size: 13px;
+color: #757575;
+margin-bottom: 5px;
+/*min-height: 40px;*/
+}
+.book-btn {
+background-color: #0de0fe;
+border: 2px solid #0de0fe;
+color: #fff;
+font-size: 13px;
+text-align: center;
+display: block;
+font-weight: 500;
+padding: 6px;
+}
+.book-btn:hover, .book-btn:focus {
+background-color: #01cae4;
+border-color: #01cae4;
+color: #fff;
+}
+.row{
+margin-bottom: 0px;
+}
+.btn-small{
+}
+.time{
+}
+.appointment{
+padding:1px 12px 1px 12px !important ;
+text-transform: capitalize;
+}
+.appointment:hover{
+-webkit-transition: background-color .2s ease-out;
+transition: background-color .2s ease-out;
+}
+#hname{
+font-size: 14px;
+color: #000000
+}
+hr.style18 {
+border-top: 1px solid #8c8b8b;
+border-bottom: 1px solid #fff;
+width: 50%;
+}
+.cel{
+padding: 15px !important;
+border:2px solid teal;
+color: black;
+box-sizing: border-box;
+}
+
+.card2{
+background-color: #fff;
+border: 1px solid #f0f0f0;
+border-radius:4px;
+margin-bottom:30px;
+position:relative;
+-webkit-transition:all .3s ease 0s;
+-moz-transition:all .3s ease 0s;
+-o-transition:all .3s ease 0s;
+transition:all .3s ease 0s;
+padding: 15px;
+box-shadow: 2px 2px 13px rgba(0, 0, 0, 0.1);
+margin-bottom: 0;
+}
+.available-info {
+font-size: 13px;
+color: #757575;
+font-weight: 400;
+list-style: none;
+padding: 0;
+margin-bottom: 15px;
+}
+.available-info li + li {
+margin-top: 5px;
+}
+.available-info li i {
+width: 22px;
+}
+.doc-img {
+position: relative;
+overflow: hidden;
+z-index: 1;
+border-radius: 4px;
+}
+.doc-img img {
+border-radius: 4px;
+-webkit-transform: translateZ(0);
+-moz-transform: translateZ(0);
+transform: translateZ(0);
+-moz-transition: all 2000ms cubic-bezier(.19,1,.22,1) 0ms;
+-ms-transition: all 2000ms cubic-bezier(.19,1,.22,1) 0ms;
+-o-transition: all 2000ms cubic-bezier(.19,1,.22,1) 0ms;
+-webkit-transition: all 2000ms cubic-bezier(.19,1,.22,1) 0ms;
+transition: all 2000ms cubic-bezier(.19,1,.22,1) 0ms;
+width: 100%;
+}
+.doc-img:hover img {
+-webkit-transform: scale(1.15);
+-moz-transform: scale(1.15);
+transform: scale(1.15);
+}
+.img-fluid {
+max-width: 100%;
+height: auto;
+}
+.pro-content {
+padding: 15px 0 0;
+}
+.title {
+font-size: 17px;
+font-weight: 500;
+margin-bottom: 5px;
+margin-top: 0px;
+}
+.speciality {
+font-size: 13px;
+color: #757575;
+margin-bottom: 5px;
+/*min-height: 40px;*/
+}
+.book-btn {
+background-color: #0de0fe;
+border: 2px solid #0de0fe;
+color: #fff;
+font-size: 13px;
+text-align: center;
+display: block;
+font-weight: 500;
+padding: 6px;
+}
+.book-btn:hover, .book-btn:focus {
+background-color: #01cae4;
+border-color: #01cae4;
+color: #fff;
+}
+.row{
+margin-bottom: 0px;
+}
+.btn-small{
+}
+.time{
+}
+.appointment{
+padding:1px 12px 1px 12px !important ;
+text-transform: capitalize;
+}
+.appointment:hover{
+-webkit-transition: background-color .2s ease-out;
+transition: background-color .2s ease-out;
+}
+#hname{
+font-size: 14px;
+color: #000000
+}
+hr.style18 {
+border-top: 1px solid #8c8b8b;
+border-bottom: 1px solid #fff;
+width: 50%;
+}
+.cel{
+  padding: 15px !important;
+  border:2px solid teal;
+  color: black;
+  box-sizing: border-box;
+}
